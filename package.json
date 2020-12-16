@@ -2,9 +2,9 @@
   "name": "app-desktop-electronjs",
   "version": "1.0.0",
   "description": "Criação de app desktop executável usando Electron.js (nesse exemplo desenvolvi um conversor de moeda simples, as instruções para a criação do app encontram-se no arquivo \"instruções\" em PDF.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DianaMartine/app-desktop-electronjs/issues"
   },
-  "homepage": "https://github.com/DianaMartine/app-desktop-electronjs#readme"
+  "homepage": "https://github.com/DianaMartine/app-desktop-electronjs#readme",
+  "devDependencies": {
+    "electron": "^11.1.0"
+  }
 }

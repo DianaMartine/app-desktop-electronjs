@@ -1,0 +1,53 @@
+body {
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(250, 128, 114, 0.459);
+    font-family: arial;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+}
+
+p {
+    margin-top: 0%;
+}
+
+p#cotacao {
+    margin-top: 10px;
+    font-size: small;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#dolar {
+    margin: 15px;
+    font-size: 2rem;
+    color: violet;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    opacity: 50%;
+}
+
+footer:hover {
+    opacity: 100%;
+    transition: 1s;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
